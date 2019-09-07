@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+body, h1, ul,ol, h2,h3, p,figure,hr{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+body{
+     background:#fff;
+	 font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft Yahei",SimHei,"宋体",simsun,sans-serif;
+}
+a {
+	text-decoration: none;
+}
+ul,ol{
+	list-style: outside none none;
+}
+img{
+	display: block;
+	max-width:100%;
+}
+#nava {
+	width: 100%;
+	height: 70px;
+	background: #333;
+	min-width: 1263px;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.3);/*设置阴影*/
+	position: relative;
+	z-index: 9999;
+}
+#nava .center {
+	width: 1263px;
+	height: 70px;
+	margin: 0 auto;
+}
+.logo {
+	width: 240px;
+	height: 70px;
+	background-image: url(../img/logo.png);
+	text-indent: -999px;/*向左边移动位置使其不显示在页面上*/
+	float: left;
+}
+.lin {
+	height: 70px;
+	width: 650px;
+	float: right;
+	line-height: 70px;
+	color: #ccc;
+}
+.lin li {
+	width: 120px;
+	float: left;
+	text-align: center;
+}
+/*设置a的字体颜色和把a转换为块状显示大块鼠标经过颜色*/
+.lin li a {
+	color: #eee;
+	display: block;
+}
+/*设置鼠标经过和首页的颜色*/
+.lin a:hover, .lin .active a {
+	background: #000;
+}
+#footer{ height:360px;
+          background:#222;
+		  clear:both;
+		  position:relative;
+		  top:20px; } 
+#footer .top{ width:1263px; height:280px; margin:0 auto; text-align:center;}
+#footer .block{ width:410px; height:280px; color:#ccc; display:inline-block; text-align:left; vertical-align:top;/*默认居顶*/ } 
+#footer .block h2{ font-size:24px; font-weight:normal; padding:20px 0 0 20px;}
+#footer .block hr{ width:90%; border:1px dashed #333;}
+#footer .block ul{ font-size:18px; color:#777; text-indent:20px; line-height:2;}
+#footer .bottom{ height:80px; background:#000; text-align:center;
+line-height:80px; color:#777; border-top:1px solid #444; clear:both; }        			  
+

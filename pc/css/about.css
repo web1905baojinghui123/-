@@ -1,0 +1,21 @@
+#container .about{
+    color:#666;
+    font-size: 20px;
+}
+#container .about h2{
+    height:40px;
+    line-height: 40px;
+    border-bottom: 1px dashed #999;
+    padding:0 0 15px 0;
+    font-size: 30px;
+    font-weight: normal;
+}
+#container .about p{
+    line-height: 2;
+    margin:20px 0;
+}
+#container .about address{
+    line-height: 1.6;
+    margin: 20px 0;
+    font-style:normal;
+}

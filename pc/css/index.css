@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+#search {
+	width: 100%;
+	min-width: 1263px;
+	height: 600px;
+	background: url(../img/banar.jpg) no-repeat center;
+	position: relative;
+}
+#search .datupian {
+	width: 600px;
+	height: 60px;
+	background-color: #333;
+	position: absolute; top: 50%; left: 50%; margin: -30px 0 0 -300px;/*设定位置*/
+	opacity: 0.6;/*透明度*/
+	border-radius: 10px; /*圆角矩形*/
+}
+#search .search {
+	width: 446px;
+	height: 54px;
+	position: absolute; top: 50%; left: 50%; margin: -27px 0 0 -296px;/*设定位置*/
+	border-radius: 10px; /*圆角矩形*/
+	border: 1px solid #666;
+	font-size: 24px;
+	color: #666;
+	outline: none;
+	padding: 0 10px;
+}
+#search .button {
+	width: 120px;
+	height: 54px;
+	position: absolute; top: 50%; left: 50%; margin: -27px 0 0 175px;/*设定位置*/
+	cursor: pointer;/*鼠标放上出现抓手*/
+	font-size: 22px;
+	border-radius: 10px;/*圆角矩形*/
+	border: none;
+	color: #666;
+	font-weight: bold;
+	outline: none;/*定义无轮廓*/
+	background-color: #eee;
+}
+#tour{ width:1263px;
+height:1150px;
+margin:30px auto;
+text-align:center;}
+
+#tour .center h2{ margin:10px 0;
+                   font-size:45px;
+				   letter-spacing:2px;/*字与字之间间距2px*/
+				   color:#666;}
+#tour .center p{ color:#666;
+                  margin:10px 0;}
+#tour figure{
+	          border:1px solid #ddd;
+			  display:inline-block;/*行内联元素设置框正好包住图片*/
+			  padding:4px;
+			  border-radius:4px;
+			  width:380px;
+			  margin:15px 12px;
+			  text-align:left;
+			  position:relative;
+			   text-align:left;}
+#tour figure img{ vertical-align:middle;/*图片垂直对齐方式，居中*/ }
+
+#tour .info{ padding:5px 0 0 0;} 
+#tour figure figcaption{ text-align:left; color:#777; line-height:1.5; letter-spacing:1px; font-size:14px; padding:5px 0 0 0;}  
+               
+#tour .title{ color:#333; font-weight:normal;} 
+#tour .sat{ float:right;
+            font-size:13px;
+			color:#999;
+			font-style:normal;
+			position:relative;
+			/*top:5px;*/
+			right:5px;
+			}  
+#tour .price{ color:#f60;
+              font-size:14px;}
+#tour .price strong{ font-size:20px; letter-spacing:1px;}  
+#tour .type{ width:90px; height:25px; line-height:25px; text-align:center; border-bottom-right-radius:4px; background-color:#59b200; font-size:14px; color:#fff; letter-spacing:1px; position:absolute; top:4px; left:4px;}   
+

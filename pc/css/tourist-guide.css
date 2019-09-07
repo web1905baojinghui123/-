@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+#headline {
+	width: 100%;
+	min-width: 1263px;
+	height: 300px;
+	background: linear-gradient( to bottom right, rgba(0,0,0,0.7), rgba(0,0,0,0)), url(../img/twozb.jpg) no-repeat center;/*渐变色*/
+}
+#headline .center {
+	width: 1263px;
+	height: 300px;
+	margin: 0 auto;
+}
+#headline hgroup {
+	padding: 100px 0 0 50px;
+}
+#headline h2 {
+	color: #eee;
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+#headline h3 {
+	color: #eee;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+#container {
+	width: 1263px;
+	margin: 30px auto;
+}
+#container .sidebar {
+	width: 340px;
+	float: right;
+}
+#container .sidebox {
+	border: 1px solid #eee;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+#container .sidebox h2 {
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-indent: 8px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fafafa;
+	color: #999;
+	text-align: left;
+}
+#container .tag {
+	padding: 10px 0;
+}
+#container .tag li {
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	margin: 2px 0;
+	background-color: #eee;
+	color: #999;
+	text-align: left;
+	text-indent: 8px;
+}
+#container .tag li a{ display:block; color:#999;}
+#container .tag a:hover {
+	background-color: #0C3;
+	color: #FFF;
+}
+#container .sidebox hot {
+	height: 500px;
+}
+#container .figura {
+	padding: 10px 0;
+}
+#container .figura figure {
+	width: 150px;
+	display: inline-block;
+	padding: 4px;
+	color: #666;
+}
+#container .figura figure img{width:150px;}
+#container .box {
+	padding: 10px 0;
+}
+
+#container .box a {
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	margin: 2px 0;
+	color: #999;
+	text-align: left;
+	text-indent: 35px;
+}
+
+#container .box a.treal1 {
+	background: #eee url(../img/tb.jpg) no-repeat left;
+}
+#container .box a.treal2 {
+	background: #eee url(../img/tb2.jpg) no-repeat left;
+}
+#container .box a.treal3 {
+	background: #eee url(../img/tb.jpg) no-repeat left;
+}
+#container .box a.treal4 {
+	background: #eee url(../img/tb2.jpg) no-repeat left;
+}
+#container .list {
+	width: 910px;
+	float: left;
+}
+#container .information{ height:45px; 
+                   line-height:45px; 
+				   margin:0 0 20px 0;
+				   background:#eee;}
+#container .information .left{
+                 width:310px;
+                 display:inline-block;
+                 float:left; }
+#container .information .left li{
+                display:inline-block; 
+				width:150px;
+				height:43px;
+				line-height:43px;
+				text-align:center;
+}
+#container .information .left li a{
+                      color:#666;
+}
+#container .information .left li:first-child{
+                background-color:#fff;
+				border-top:2px solid #458b00;
+				position:relative;
+				left:1px;
+}
+#container .information .right{
+                 width:200px;
+                 display:inline-block;
+				 padding:0 20px 0 0;
+				 float:right;
+}
+#container .information .right li{
+                 display:inline-block;
+                 width:60px;
+				 height:45px;
+				 line-height:45px;
+				 text-align:center;
+				 }
+#container .information .right li a{
+                  padding:3px 8px;
+				  color:#666;
+}
+#container .information .right li .active,#container .information .right li a:hover{
+                  background-color:green;
+				  color:#fff;
+}
+#container .tour{
+                 width:908px;
+				 padding:0;
+				 margin:0 0 20px 0;
+				 height:220px;
+				 border:1px solid #eee;
+				 position: relative;
+}
+#container .tour img{float:left;}
+#container .tour figcaption{
+                  width:528px;
+				  height:220px;
+                  float:right;
+}
+#container .tour hgroup{
+	               width:300px;
+}
+#container .tour h2{
+					font-size:24px;
+					font-weight:normal;
+					padding:10px 0 10px 25px;
+					color:#333;
+}
+#container .tour h3{
+	       font-size:16px;
+	       font-weight:normal;
+		   padding:10px 0 10px 25px;
+		   line-height: 1.5;
+	       color:#666;
+}
+#container .tour footer{
+                   width:528px;
+				   height:30px;
+				   line-height: 30px;
+				   letter-spacing:1px;
+				   text-indent: 25px;
+				   background-color:#fafafa;
+				   position:absolute;
+				   bottom:0;
+}
+#container .tour time{
+         color:#458b00;
+}
+#container .tour ol{
+		 padding:0 0 0 25px;
+		 color:#666;
+		 line-height: 2;
+}
+#container .tour img{
+	width:40%;
+	float:left;
+}
+#container .tour mark{
+	padding:0 5px;
+	border-radius: 4px;
+	color:#458B00;
+	background-color: #fff;
+	border:1px solid #458B00;
+}
+#container .tour .buy{
+	position: absolute;
+	top:55px;
+	right:30px;
+}
+#container .tour s{
+	font-size:16px;
+	color:#999;
+}
+#container .tour .price{
+	font-size:20px;
+	color:#f60;
+}
+#container .tour strong{
+	font-size: 36px;
+}
+#container .tour .reserve{
+	margin:10px 0 0 0;
+}
+#container .tour .reserve a{
+	display:inline-block;
+	width:152px;
+	height:40px;
+	line-height:40px;
+	border-radius:4px;
+	background-color: #f60;
+	color:#fff;
+	font-size: 20px;
+	text-align: center;
+}
+#container .tour .type{
+	width:90px;
+	height:25px;
+	line-height: 25px;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	background-color: #59b200;
+	position: absolute;
+	top:0;
+	left:0;
+}
+#container .tour .disc{
+	position: absolute;
+	top:0;
+	right:0;
+	width:52px;
+	height:52px;
+	background: url(../img/disc.png) no-repeat;
+}
+#container .tour .disc span{
+	width:52px;
+	height:52px;
+	display: block;
+	font-size: 14px;
+	color:#ff7a4b;
+	transform:rotate(45deg);
+	text-indent:7px;
+	padding:5px 0 0 0 ;
+}
+.more{
+	width:200px;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	font-size: 18px;
+	margin:0 auto;
+	cursor:pointer;
+	background-color: #fafafa;
+}
