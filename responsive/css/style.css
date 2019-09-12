@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+body, h1, ul,ol, h2,h3, p,figure,hr{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+body{
+     background:#fff;
+	 font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft Yahei",SimHei,"宋体",simsun,sans-serif;
+}
+a {
+	text-decoration: none;
+}
+ul,ol{
+	list-style: outside none none;
+}
+img{
+	display: block;
+	max-width:100%;
+}
+
+#header {
+	width: 100%;
+	height: 70px;
+	background: #333;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.3);/*设置阴影*/
+    position: fixed;
+    top:0;
+	z-index: 9999;
+}
+#header .center {
+	max-width: 1263px;
+	height: 70px;
+	margin: 0 auto;
+}
+.logo {
+	width: 30%;
+	height: 70px;
+	background: url(../img/logo.png) no-repeat left center;
+	text-indent: -999px;/*向左边移动位置使其不显示在页面上*/
+	float: left;
+}
+.lin {
+	height: 70px;
+	width: 55%;
+	float: right;
+	line-height: 70px;
+	color: #ccc;
+}
+.lin li {
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+/*设置a的字体颜色和把a转换为块状显示大块鼠标经过颜色*/
+.lin li a {
+	color: #eee;
+	display: block;
+}
+/*设置鼠标经过和首页的颜色*/
+.lin a:hover, .lin .active a {
+	background: #000;
+}
+#adver{
+    max-width: 1920px;
+    margin: 0 auto;
+	padding:70px 0 0 0;
+	position: relative;
+}
+#adver .datupian {
+	width: 40%;
+	height: 60px;
+	background-color: #333;
+	position: absolute; top: 50%; left: 50%; margin: -30px 0 0 -300px;/*设定位置*/
+	opacity: 0.6;/*透明度*/
+	border-radius: 10px; /*圆角矩形*/
+}
+#adver .search {
+	width: 446px;
+	height: 54px;
+	position: absolute; top: 50%; left: 50%; margin: -27px 0 0 -296px;/*设定位置*/
+	border-radius: 10px; /*圆角矩形*/
+	border: 1px solid #666;
+	font-size: 24px;
+	color: #666;
+	outline: none;
+	padding: 0 10px;
+}
+#adver .button {
+	width: 120px;
+	height: 54px;
+	position: absolute; top: 50%; left: 50%; margin: -27px 0 0 175px;/*设定位置*/
+	cursor: pointer;/*鼠标放上出现抓手*/
+	font-size: 22px;
+	border-radius: 10px;/*圆角矩形*/
+	border: none;
+	color: #666;
+	font-weight: bold;
+	outline: none;/*定义无轮廓*/
+	background-color: #eee;
+}
+
+
+/*媒体查询*/
+/*当页面大鱼1200px时,大屏幕,主要是PC端*/
+@media (min-width:1200px) {
+
+}
+/*在992和1199像素之间的屏幕里,中等屏幕,分辨率低的PC*/
+@media (min-width:992px) and (max-width:1199px) {
+
+}
+/*在768和991像素之间的屏幕里,中等屏幕,主要是PAD*/
+@media (min-width:768px) and (max-width:991px) {
+   
+}
+/*在480和767像素之间的屏幕里,超小屏幕,主要是手机*/
+@media (min-width:480px) and (max-width:767px) {
+#header,#header.center,.link{
+    height: 45px;
+}
+#header .logo{
+        display: none;
+    }
+.lin {
+    width:100%;
+    line-height: 45px;
+}
+.lin li{
+    width:25%;
+}
+#adver{
+    padding: 45px 0 0 0;
+}
+}
+/*在小于480像素的屏幕,微小屏幕,更低分辨率的手机*/
+@media (max-width:479px) {
+#header .logo,.xs-hidden{
+        display: none;
+    }
+.lin {
+        width:100%;
+        line-height: 45px;
+    }
+#header,#header.center,.link{
+    height: 45px;
+}
+.lin li{
+    width:25%;
+}
+#adver{
+    padding: 45px 0 0 0;
+}
+}
+.datupian {
+	width: 600px;
+	height: 60px;
+	background-color: #333;
+	position: absolute; top: 50%; left: 50%; margin: -30px 0 0 -300px;/*设定位置*/
+	opacity: 0.6;/*透明度*/
+	border-radius: 10px; /*圆角矩形*/
+}
+.search {
+	width: 446px;
+	height: 54px;
+	position: absolute; top: 50%; left: 50%; margin: -27px 0 0 -296px;/*设定位置*/
+	border-radius: 10px; /*圆角矩形*/
+	border: 1px solid #666;
+	font-size: 24px;
+	color: #666;
+	outline: none;
+	padding: 0 10px;
+}
+.button {
+	width: 120px;
+	height: 54px;
+	position: absolute; top: 50%; left: 50%; margin: -27px 0 0 175px;/*设定位置*/
+	cursor: pointer;/*鼠标放上出现抓手*/
+	font-size: 22px;
+	border-radius: 10px;/*圆角矩形*/
+	border: none;
+	color: #666;
+	font-weight: bold;
+	outline: none;/*定义无轮廓*/
+	background-color: #eee;
+}
